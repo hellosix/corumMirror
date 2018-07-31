@@ -1,0 +1,77 @@
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+
+pre{
+    border-radius: 0px;
+    background-color: rgb(254, 255, 250);
+}
+
+.ui-autocomplete{
+    z-index: 10000;
+}
+
+
+.loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1000;
+}
+
+.loading .gif {
+    height: 32px;
+    width: 32px;
+    background: url('../image/loading.gif');
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+    z-index: 1001;
+}
+
+.flow-title{
+    color:#367ea9;
+}
+
+.palette{
+    border-right: solid 1px #ade6f3;
+}
+
+.palette-title{
+    background-color: #ade6f3;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    color: #675e5e;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.palette-content{
+    height: 290px;
+}
+#flow-chart-result{
+    width: 100%;
+    margin-top: 15px;
+    cursor: move;
+    z-index:10;
+    position: absolute;
+    overflow-y: auto
+}
+
+#flow-detail-link{
+    font-size:16px;
+    position:relative;
+    top:15px;
+    left:12px;
+    color:#367ea9;
+    cursor: pointer;
+}
